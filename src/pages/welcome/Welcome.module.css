@@ -1,0 +1,14 @@
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.intro {
+    @apply text-xl;
+    font-weight: 300;
+    padding: 10vh;
+    margin-top: 30vh;
+}

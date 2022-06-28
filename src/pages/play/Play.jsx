@@ -1,9 +1,20 @@
 import React from 'react'
+import Square from '../../components/square/Square'
 
 const Play = () => {
   return (
-    <div>
-      <h1 className='pt-10'>Play</h1>
+    <div className='flex justify-center pt-20'>
+      <div className='grid grid-cols-3 grid-rows-3 w-max'>
+        <Square />
+        <Square />
+        <Square />
+        <Square />
+        <Square />
+        <Square />
+        <Square />
+        <Square />
+        <Square />
+      </div>
     </div>
   )
 }
